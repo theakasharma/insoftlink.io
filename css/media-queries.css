@@ -1,0 +1,354 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 25px;
+    }
+
+    .nav-toggle i {
+        font-size: x-large;
+        color: black;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .active {
+        left: 0;
+    }
+
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .benefit-cont {
+        gap: 17px;
+    }
+
+    .big-offer {
+        background: none;
+    }
+
+    .test-card {
+        margin: 24px;
+    }
+    .test-card img {
+        position: relative;
+        top: -89px;
+        width: 50%;
+    }
+
+    .test-card h2 {
+        bottom: 70px;
+    }
+
+    .test-card h3 {
+        bottom: 58px;
+    }
+
+    .test-card p {
+        bottom: 24px;
+        font-size: 14px;
+    }
+
+    .contact-img img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vw;
+    }
+
+    .header-left h1 {
+        font-size: 6rem;
+    }
+
+    .header-left img {
+        width: 15%;
+    }
+
+    .features-section .fe-img {
+        top: 143rem;
+        width: 30%;
+    }
+
+    .features-area {
+        flex-direction: column;
+    }
+    .feature-card {
+        max-width: 100%;
+        margin-top: 25px;
+
+    }
+
+    .service-offer-container {
+        gap: 30%;
+        flex-direction: column;
+    }
+
+    .srv-ofr {
+        flex-direction: column-reverse;
+    }
+
+    .offers-1 {
+        background-size: 80%;
+        background-position: left;
+    }
+
+    .offers-3 {
+        background-size: 35%;
+    }
+
+    .offers-4 {
+        background-size: 35%;
+    }
+
+    .offers-6 {
+        background-size: 80%;
+    }
+
+    .offer-img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    .offer-cont {
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .cards-section {
+        gap: 131px;
+        flex-direction: column;
+    }
+
+    .testmo-cards {
+        max-width: 50%;
+        border-radius: 45px;
+        box-shadow: 0px 0px 35px rgb(0 0 0 / 25%);
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact-form {
+        width: 100%;
+    }    
+
+    .footer-area {
+        flex-direction: column;
+    }
+
+    .footer-area .follow-as .follow-icon {
+        align-self: flex-start;
+    }
+
+    .team-1 {
+        flex-direction: row-reverse;
+    }
+
+    .portfolio-section-cont p {
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1rem;
+        font-weight: 200px;
+    }
+    
+    h3 {
+        font-size: 1rem;
+        line-height: 0.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 0.7rem;
+        font-weight: 200;
+    }
+
+
+    .contact-btn {
+        width: 85px;
+        height: 30px;
+        line-height: 2rem;
+    }
+
+    .about-section {
+        margin: 40px 0 40px 0;
+    }
+    
+    .about-left h1 img {
+        width: 10%;
+    }
+
+    .about-right img {
+        width: 100%;
+    }
+
+    .testmo-cards {
+        max-width: 90%;
+    }
+
+    .footer-img img {
+        width: 100%;
+    }
+
+    .ab-right p {
+        font-size: 14px;
+        color: #505050;
+        line-height: 0.8;
+    }
+
+    .ab-right {
+        font-size: 14px;
+    }
+
+    .benefit-cont {
+        gap: 10px;
+    }
+
+    .benefit-cont h2 {
+        font-size: 1.3rem;
+    }
+
+    .benefit-cont p {
+        font-size: 0.8rem;
+    }
+
+    .Our-team-profile img {
+        border: 10px solid #C4C4C4;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+
+    .features-section .fe-img {
+        top: 118rem;
+    }
+
+    .contact-form {
+        padding: 66px 22px 50px 47px;
+        box-shadow: 0px 0px 25px rgb(0 0 0 / 25%);
+    }
+    
+    .contact-form .row .form-group {
+        height: 32px;
+    }
+
+    .contact-form .row .form-group label {
+        font-size: 22px;
+        margin: 0 0 0 17px;
+    }
+    
+    .contact-form .row input[type="submit"] {
+
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+    .contact-form .row .Msg-col {
+        height: 90px;
+        border-radius: 15px;
+    }
+
+    .cards-section {
+        padding: 121px var(--padding-inline-section) 50px;
+    }
+
+    .testmo-cards {
+        max-width: 90%;
+    }
+
+    .about-section {
+        margin: 2px 0 40px 0;
+    }
+
+    .ab-left {
+        width: 100%;
+    }
+    
+    .ab-right {
+        font-size: 10px;
+        line-height: 0.5rem;
+    }
+
+    .ab-right p {
+        font-size: 10px;
+    }
+
+    .about-page-area {
+        gap: 1px;
+        margin: var(--padding-inline-section) 0;
+    }
+
+    .benefit-cont {
+        gap: 6px;
+        width: 250px;
+    }
+
+    .banefits-img {
+        bottom: 40px;
+        position: relative;
+        width: 252px;
+    }
+
+    .benefit-cont h2 {
+        font-size: 1.3rem;
+        margin-top: 44px;
+    }
+
+    .benefit-cont p {
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+    
+    .benefit-cont a {
+        margin-bottom: 20px;
+        height: 32px;
+        width: 89px;
+        font-size: 18px;
+    }
+
+    .services-page {
+        background: none;
+    }
+
+}
