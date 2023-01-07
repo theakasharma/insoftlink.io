@@ -260,8 +260,20 @@
 
 @media screen and (max-width: 365px) {
 
+    .company-logo img {
+        width: 90%;
+    }
+
+    header {
+        padding: 10px var(--padding-inline-section) 0;
+    }
+
     .features-section .fe-img {
         top: 118rem;
+    }
+
+    .nav-toggle {
+        margin-right: 10px;
     }
 
     .contact-form {
@@ -351,4 +363,8 @@
         background: none;
     }
 
+    .cards-12 {
+        margin: 0px 4px;
+    }
+    
 }
